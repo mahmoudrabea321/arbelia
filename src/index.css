@@ -1,0 +1,26 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "Amiri", serif;
+  --font-body: "IBM Plex Sans Arabic", sans-serif;
+
+  --color-ivory: #F5F2ED;
+  --color-beige: #E6E2DB;
+  --color-walnut: #5A5A40;
+  --color-gold: #5A5A40;
+  --color-dark: #1A1A1A;
+  
+  --color-background: var(--color-ivory);
+  --color-foreground: var(--color-dark);
+}
+
+body {
+  font-family: var(--font-body);
+  background-color: var(--color-background);
+  color: var(--color-foreground);
+  overflow-x: hidden;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-display);
+}
